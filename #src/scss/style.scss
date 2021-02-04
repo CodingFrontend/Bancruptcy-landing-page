@@ -1096,7 +1096,7 @@ body {
 
 	&__btn {
 		align-self: flex-start;
-		&.disabled {
+		&.disable {
 			user-select: none !important;
 			background-color: #e3e3e3;
 			cursor: default !important;
