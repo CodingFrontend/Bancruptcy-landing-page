@@ -868,7 +868,7 @@ textarea.input {
 }
 
 .title {
-  font-family: "BebasNeue-Regular";
+  font-family: "BebasNeue-Bold";
   font-size: 77px;
   line-height: 112.98701%;
   text-transform: uppercase;
@@ -877,7 +877,7 @@ textarea.input {
 }
 
 .title span {
-  font-family: "BebasNeue-Bold";
+  font-family: "BebasNeue-Regular";
 }
 
 .btn {
