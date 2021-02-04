@@ -1,13 +1,13 @@
 //<ОСНОВНОЙ БЛОК>====================================================================================================
 .title {
-	font-family: "BebasNeue-Regular";
+	font-family: "BebasNeue-Bold";
 	font-size: 77px;
 	line-height: 87 / 77 * 100%;
 	text-transform: uppercase;
 	color: #fefefe;
 	letter-spacing: 0.3px;
 	span {
-		font-family: "BebasNeue-Bold";
+		font-family: "BebasNeue-Regular";
 	}
 	@media (max-width: $md1+px) {
 		font-size: 75px;

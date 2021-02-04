@@ -9,7 +9,7 @@ for (let i = 0; i < pageSections.length; i++) {
 
 		if (event.target.classList.contains('page-section__link')) {
 			let pageTitle = pageSections[i].querySelector('.page-section__title');
-			pageTitle.innerHTML = '<span>Дела за</span>' + ' ' + event.target.innerHTML;
+			pageTitle.querySelector('span').innerHTML = event.target.innerHTML;
 		}
 
 	}, false);
