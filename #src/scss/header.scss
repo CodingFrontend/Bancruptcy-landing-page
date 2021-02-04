@@ -16,9 +16,6 @@
 	@media (max-width: 600px) {
 		height: 135px;
 	}
-	@media (max-width: $md4 + px) {
-		height: 115px;
-	}
 	&__bg {
 		position: absolute;
 		left: 0;
@@ -52,10 +49,6 @@
 		@media (max-width: 600px) {
 			width: 55px;
 		}
-		@media (max-width: $md4+px) {
-			padding: 0px 0px 0px 0px;
-			width: 45px;
-		}
 	}
 
 	&__text {
@@ -72,9 +65,6 @@
 		}
 		@media (max-width: 600px) {
 			padding: 0px 0px 0px 12px;
-		}
-		@media (max-width: $md4+px) {
-			padding: 0px 0px 0px 8px;
 		}
 	}
 	&__title {
@@ -94,9 +84,6 @@
 		@media (max-width: 600px) {
 			font-size: 25px;
 		}
-		@media (max-width: $md4+px) {
-			font-size: 20px;
-		}
 	}
 	&__subtitle {
 		font-size: 19.25px;
@@ -112,9 +99,6 @@
 		}
 		@media (max-width: 600px) {
 			font-size: 12px;
-		}
-		@media (max-width: $md4+px) {
-			font-size: 10px;
 		}
 	}
 }

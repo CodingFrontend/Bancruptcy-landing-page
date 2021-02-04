@@ -1,4 +1,20 @@
 "use strict"
+
+// Change title when clicked at tab nav
+
+let pageSections = document.querySelectorAll('.page-section');
+
+for (let i = 0; i < pageSections.length; i++) {
+	pageSections[i].addEventListener('click', function f(event) {
+
+		if (event.target.classList.contains('page-section__link')) {
+			let pageTitle = pageSections[i].querySelector('.page-section__title');
+			pageTitle.innerHTML = '<span>Дела за</span>' + ' ' + event.target.innerHTML;
+		}
+
+	}, false);
+}
+
 // Enable/Disable button
 
 var but = document.querySelector('.form-book__btn');
