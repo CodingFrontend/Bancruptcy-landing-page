@@ -2939,7 +2939,7 @@ body.ie ._ibg img {
   }
 
   .popup__body {
-    padding: 20px 25px;
+    padding: 30px 25px;
   }
 
   .popupInfo__title {
@@ -3268,33 +3268,12 @@ body.ie ._ibg img {
   }
 
   .popup__body {
-    padding: 20px 10px 15px 10px;
+    padding: 30px 10px 30px 10px;
   }
 
   .popup__close {
     width: 40px;
     height: 40px;
-  }
-
-  .header {
-    height: 115px;
-  }
-
-  .logo__icon {
-    padding: 0px 0px 0px 0px;
-    width: 45px;
-  }
-
-  .logo__text {
-    padding: 0px 0px 0px 8px;
-  }
-
-  .logo__title {
-    font-size: 20px;
-  }
-
-  .logo__subtitle {
-    font-size: 10px;
   }
 
   .content-header__phone {
