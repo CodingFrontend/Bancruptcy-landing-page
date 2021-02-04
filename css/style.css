@@ -2247,10 +2247,11 @@ body.ie ._ibg img {
   font-size: 22px;
   line-height: 168.18182%;
   padding: 0px 80px 0px 0px;
+  color: #2c2c2c;
 }
 
 .book-page__text span {
-  border-bottom: 1px solid;
+  border-bottom: 0.5px solid;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -2307,10 +2308,10 @@ body.ie ._ibg img {
 .form-book__conditions {
   position: relative;
   margin: 0px 0px 30px 0px;
+  color: #2c2c2c;
 }
 
 .form-book__conditions_text {
-  cursor: pointer;
   display: block;
   padding: 0px 0px 0px 37px;
   font-size: 14px;
@@ -2318,10 +2319,12 @@ body.ie ._ibg img {
 }
 
 .form-book__conditions_policy {
-  border-bottom: 1px solid;
+  cursor: pointer;
+  border-bottom: 0.5px solid;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  color: #2c2c2c;
 }
 
 .form-book__conditions_policy:hover {
