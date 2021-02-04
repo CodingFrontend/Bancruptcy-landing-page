@@ -1098,10 +1098,10 @@ body {
 		align-self: flex-start;
 		&.disable {
 			user-select: none !important;
-			background-color: #e3e3e3;
+			background-color: #e3e3e3 !important;
 			cursor: default !important;
 			pointer-events: none !important;
-			box-shadow: 4px 5px 0px 0px #a4a4a4;
+			box-shadow: 4px 5px 0px 0px #a4a4a4 !important;
 		}
 	}
 }
