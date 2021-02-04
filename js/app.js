@@ -87,6 +87,13 @@ if (document.querySelector('.slider-press')) {
 };
 
 "use strict"
+// Enable/Disable button
+
+var but = document.querySelector('.form-book__btn');
+document.querySelector('.input__checkbox').onclick = function () {
+	(this.checked) ? but.classList.remove('disable') : but.classList.add('disable');
+}
+
 //BodyLock
 function body_lock(delay) {
 	let body = document.querySelector("body");
@@ -190,9 +197,6 @@ for (let index = 0; index < tabs.length; index++) {
 	}
 }
 //
-
-
-
 
 // popup
 

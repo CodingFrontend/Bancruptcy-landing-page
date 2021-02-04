@@ -2366,7 +2366,7 @@ body.ie ._ibg img {
       align-self: flex-start;
 }
 
-.form-book__btn.disabled {
+.form-book__btn.disable {
   -webkit-user-select: none !important;
      -moz-user-select: none !important;
       -ms-user-select: none !important;
