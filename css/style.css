@@ -919,6 +919,18 @@ textarea.input {
           box-shadow: 4px 4px 0px 0px transparent;
 }
 
+.btn.disable {
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
+  background-color: #e3e3e3 !important;
+  cursor: default !important;
+  pointer-events: none !important;
+  -webkit-box-shadow: 4px 5px 0px 0px #a4a4a4 !important;
+          box-shadow: 4px 5px 0px 0px #a4a4a4 !important;
+}
+
 .row:after {
   display: block;
   content: "";
@@ -2364,18 +2376,6 @@ body.ie ._ibg img {
 .form-book__btn {
   -ms-flex-item-align: start;
       align-self: flex-start;
-}
-
-.form-book__btn.disable {
-  -webkit-user-select: none !important;
-     -moz-user-select: none !important;
-      -ms-user-select: none !important;
-          user-select: none !important;
-  background-color: #e3e3e3 !important;
-  cursor: default !important;
-  pointer-events: none !important;
-  -webkit-box-shadow: 4px 5px 0px 0px #a4a4a4 !important;
-          box-shadow: 4px 5px 0px 0px #a4a4a4 !important;
 }
 
 .page__contacts {
