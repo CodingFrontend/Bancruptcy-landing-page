@@ -1,0 +1,210 @@
+.header {
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 238px;
+	background-color: rgba(0, 0, 0, 0.42);
+	@media (max-width: $md1+px) {
+		height: 218px;
+	}
+	@media (max-width: $md2+px) {
+		height: 198px;
+	}
+	@media (max-width: $md3+px) {
+		height: 150px;
+	}
+	@media (max-width: 600px) {
+		height: 135px;
+	}
+	@media (max-width: $md4 + px) {
+		height: 115px;
+	}
+	&__bg {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+	&__content {
+		width: 100%;
+		position: relative;
+		z-index: 2;
+	}
+}
+.logo {
+	&__icon {
+		width: 83px;
+		padding: 0px 0px 0px 3px;
+		img {
+			max-width: 100%;
+		}
+		@media (max-width: $md1+px) {
+			width: 77px;
+		}
+		@media (max-width: $md2+px) {
+			width: 70px;
+		}
+		@media (max-width: $md3+px) {
+			width: 60px;
+		}
+		@media (max-width: 600px) {
+			width: 55px;
+		}
+		@media (max-width: $md4+px) {
+			padding: 0px 0px 0px 0px;
+			width: 45px;
+		}
+	}
+
+	&__text {
+		color: #fff;
+		padding: 0px 0px 0px 26px;
+		@media (max-width: $md1+px) {
+			padding: 0px 0px 0px 23px;
+		}
+		@media (max-width: $md2+px) {
+			padding: 0px 0px 0px 20px;
+		}
+		@media (max-width: $md3+px) {
+			padding: 0px 0px 0px 17px;
+		}
+		@media (max-width: 600px) {
+			padding: 0px 0px 0px 12px;
+		}
+		@media (max-width: $md4+px) {
+			padding: 0px 0px 0px 8px;
+		}
+	}
+	&__title {
+		font-family: "BebasNeue-Bold";
+		font-size: 45px;
+		letter-spacing: 4px;
+		line-height: 55 / 45 * 100%;
+		@media (max-width: $md1+px) {
+			font-size: 40px;
+		}
+		@media (max-width: $md2+px) {
+			font-size: 36px;
+		}
+		@media (max-width: $md3+px) {
+			font-size: 30px;
+		}
+		@media (max-width: 600px) {
+			font-size: 25px;
+		}
+		@media (max-width: $md4+px) {
+			font-size: 20px;
+		}
+	}
+	&__subtitle {
+		font-size: 19.25px;
+		line-height: 24 / 19.25 * 100%;
+		@media (max-width: $md1+px) {
+			font-size: 17.25px;
+		}
+		@media (max-width: $md2+px) {
+			font-size: 15.25px;
+		}
+		@media (max-width: $md3+px) {
+			font-size: 13.25px;
+		}
+		@media (max-width: 600px) {
+			font-size: 12px;
+		}
+		@media (max-width: $md4+px) {
+			font-size: 10px;
+		}
+	}
+}
+.header {
+	&__content {
+	}
+}
+.content-header {
+	&__container {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__logo {
+		display: block;
+		display: flex;
+		align-items: center;
+	}
+
+	&__contacts {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	&__phone {
+		font-family: "MyriadPro-Bold";
+		color: #fff;
+		font-size: 27px;
+		line-height: 1;
+		margin: -15px 0px 15px 0px;
+		padding: 0px 0px 0px 35px;
+		background: url("../img/icons/phone.svg") left 0 no-repeat;
+		@media (max-width: $md1+px) {
+			font-size: 26px;
+			margin: -15px 0px 12px 0px;
+		}
+		@media (max-width: $md2+px) {
+			padding: 0px 0px 0px 32px;
+			font-size: 24px;
+			margin: -15px 0px 10px 0px;
+		}
+		@media (max-width: $md3+px) {
+			padding: 0px 0px 0px 30px;
+			font-size: 20px;
+			margin: -13px 0px 7px 0px;
+		}
+		@media (max-width: 600px) {
+			padding: 0px 0px 0px 28px;
+			font-size: 18px;
+			margin: -13px 0px 5px 0px;
+		}
+		@media (max-width: $md4+px) {
+			padding: 0px 0px 0px 0px;
+			font-size: 0px;
+			width: 25px;
+			height: 35px;
+			vertical-align: middle;
+			margin: -13px 0px 0px 0px;
+		}
+	}
+	&__consult {
+		span {
+			color: #fff;
+			font-size: 17px;
+			border-bottom: 2px dotted;
+			padding: 0px 0px 3px 0px;
+			transition: all 0.3s ease;
+			&:hover {
+				color: #f0c500;
+				border-bottom: 2px dotted #f0c500;
+			}
+			@media (max-width: $md1+px) {
+				padding: 0px 0px 2px 0px;
+				font-size: 15px;
+			}
+			@media (max-width: $md2+px) {
+				font-size: 14px;
+			}
+			@media (max-width: $md3+px) {
+				font-size: 12px;
+			}
+			@media (max-width: 600px) {
+				font-size: 11px;
+			}
+			@media (max-width: $md4+px) {
+				display: none;
+			}
+		}
+	}
+}
